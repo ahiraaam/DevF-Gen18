@@ -1,0 +1,27 @@
+body {
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  /* important*/
+  color: blue;
+}
+h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+/*La clase es más específica que las etiquetas*/
+.parrafos {
+  color: #1d2cd3;
+}
+/*El ID es más específico que las clases*/
+#parrafo1 {
+  color: rgb(38, 170, 38);
+}
+
+p {
+  color: orange;
+}

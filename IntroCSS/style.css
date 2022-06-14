@@ -1,10 +1,15 @@
 body {
-  background-color: rgb(183, 208, 253);
+  background: url("https://fondosmil.com/fondo/54336.png");
+  background-size: cover;
 }
 p {
   color: blueviolet;
   font-size: 35px;
   background-color: white;
+}
+/* id de título */
+#titulo-principal {
+  color: yellowgreen;
 }
 /*Este es un comentario*/
 /*CLASES*/
@@ -17,6 +22,11 @@ p {
 }
 .clase-p {
   color: orangered;
+}
+.clase-titulo {
+  font-size: 100px;
+  color: orange;
+  background-color: rgb(25, 161, 252);
 }
 
 /*ID's*/
@@ -31,4 +41,14 @@ p {
 }
 #parrafo2 {
   color: green;
+}
+#imagen1 {
+  height: 200px;
+}
+.clase-anidada {
+  background-color: purple;
+}
+/*Selectores Avanzados*/
+.clase-div .clase-ul .clase-anidada {
+  background-color: yellow;
 }
