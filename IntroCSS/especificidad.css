@@ -20,6 +20,8 @@ a {
 /*El ID es más específico que las clases*/
 #parrafo1 {
   color: rgb(38, 170, 38);
+  height: 200px;
+  background: url("https://fondosmil.com/fondo/54336.png");
 }
 
 p {
