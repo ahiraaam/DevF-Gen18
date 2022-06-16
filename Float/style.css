@@ -1,0 +1,17 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+#seccion1 {
+  background-color: blueviolet;
+  float: left;
+}
+#seccion2 {
+  background-color: blue;
+  float: right;
+}
+#seccion3 {
+  background-color: red;
+  float: right;
+  clear: both;
+}
