@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0; /* Resetear el stylo por defecto */
+    padding: 0; /* Resetear el stylo por defecto */
+   /*  box-sizing: content-box; suma width + margin + padding + border */
+}
+
+span{
+    display: inline-block;
+}
+
+
+.titulo{
+    width: 400px; /* 400 - 10 de border */
+    height: 200px; /* 200 - 50 padding - 10 de border */
+    
+    border: 5px solid red;
+    margin-top: 50px;
+    padding-top:50px;
+    /*
+
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    padding-left: 200px;
+    
+    padding: 50px 100px 150px 200px; -> arriba derecha abajo izq
+
+    padding: 100px 200px 150px; --> arriba derecha-izquierda abajo
+
+    padding: 100px 200px; -- arriba-abajo derecha-izquierda
+
+    padding: 100px; -- 4 lados
+
+    Aplica para Margin padding border
+
+    */
+}

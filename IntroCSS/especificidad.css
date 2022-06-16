@@ -1,6 +1,7 @@
 body {
   color: blueviolet;
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Fascinate', cursive; /* Esta fuente viene de google fonts */
 }
 p {
   /* important*/
@@ -26,4 +27,36 @@ a {
 
 p {
   color: orange;
+}
+
+/* Pseudoclases y pseudoeleentos  */
+
+.mi-boton{
+  height: 80px;
+  width: 160px;
+}
+
+.mi-boton:hover{
+  background-color: orange;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.mi-boton:hover::before
+{
+  content: 'Haz click';
+}
+
+.mi-input{
+  display: block;
+  margin-top: 20px ;
+  width: 200px;
+  height: 60px;
+}
+
+.mi-input:focus
+{
+  outline-color: red;
+  border-radius: 10px;
+  height: 40px;
 }
