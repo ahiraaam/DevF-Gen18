@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+div
+{
+    height: 150px;
+}
+
+#rojo{ 
+    background: red;
+    position: absolute; /* Saca el elemento del flujo 
+    right: 0;
+    z-index: 1 ; /* Manipula la capa del elemento  
+ }
+#azul{ 
+    background: blue;
+ }
+
+#rosa{
+    background: pink;
+    position: relative; /* comienza a contar desde donde el elemento debe de aparecer 
+}
+#rosa h2{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+*/
+.menu{
+    background: pink;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0 ;
+    z-index: 1;
+}
+
+
+.card{
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    margin: 100px 50px;
+    background: purple;
+    position: relative;
+}
+
+.card h2{
+    position: relative;
+    bottom: 0;
+    left: 50px;
+    top: 10px;
+}
+
+.btn{
+    position: absolute;
+    bottom: 0;
+    width: 100% ;    
+}

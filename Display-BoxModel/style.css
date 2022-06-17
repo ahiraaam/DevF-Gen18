@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0; /* Resetear el stylo por defecto */
     padding: 0; /* Resetear el stylo por defecto */
-   /*  box-sizing: content-box; suma width + margin + padding + border */
+   /*  box-sizing: content-box; suma width  + padding + border */
 }
 
 span{
